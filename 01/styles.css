@@ -1,0 +1,19 @@
+div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    background-color: red;
+    color: wheat;
+}
+
+p {
+    font-size: 18px;
+    background-color: green;
+    color: white;
+}
+
+button {
+    font-size: 18px;
+    background-color: orange;
+}
