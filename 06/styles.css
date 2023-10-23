@@ -1,0 +1,29 @@
+.large {
+    font-size: xx-large;
+}
+
+.large,
+.smaller {
+    font-weight: bolder;
+}
+
+.confirm,
+.cancel {
+    font-size: medium;
+}
+
+.confirm {
+    background-color: green;
+    color: white;
+}
+
+.thin,
+.child {
+    font-weight: 100;
+}
+
+
+.extra-bold {
+    font-size: smaller;
+    font-weight: 900;
+}
