@@ -1,0 +1,57 @@
+* {
+    color: purple;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.links  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.notification {
+    background-color: purple;
+    align-self: center;
+    color: white;
+    border-radius: 10px;
+    padding: 4px 20px;    
+}
+
+.circle {
+    width: 45px;
+    height: 45px;
+    color: purple;
+    border-radius: 50%;
+    background-color: purple;
+}
+
+
+.logo {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
