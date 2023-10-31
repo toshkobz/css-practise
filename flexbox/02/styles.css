@@ -1,0 +1,34 @@
+
+body {
+    font-size: 18px;
+    font-family: 'Times New Roman';
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    background-color: beige;
+
+}
+
+.logo {
+    padding: 8px;
+    background-color: white;
+    color: tomato;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    padding: 8px;
+    
+}
+
+ul > * {
+    color: blue;
+    background-color: white;
+    padding: 5px;
+}
