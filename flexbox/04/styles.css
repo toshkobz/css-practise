@@ -1,0 +1,45 @@
+* {
+    /* border: 1px solid black; */
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+
+  }
+
+  
+  .header {
+    margin-bottom: 32px;
+  }
+
+
+
+  .container {
+    display: flex;
+    justify-content:center;
+    
+  }
+
+  .elements {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+  }
+
+
+  .image {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .image > p {
+    max-width: 200px;
+  }
+
