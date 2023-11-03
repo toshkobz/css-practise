@@ -1,0 +1,80 @@
+
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 0 auto;
+    background-color: lightgray;
+    height: 100%;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: white;
+border-radius: 10px;
+box-shadow:2px white;
+width: 460px;
+padding: 16px;
+gap: 16px;
+
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(21, 21, 138);
+    background-color:rgb(238, 234, 234);
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.close-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color:gray;
+    background-color: rgb(234, 223, 223);
+
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+button.continue {
+    border-radius: 20%;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 10px;
+  }
+  
+  button.cancel {
+    border-radius: 20%;
+    background: white;
+    border: 1px solid #ddd;
+    color: royalblue;
+    padding: 10px;
+  
+  }
